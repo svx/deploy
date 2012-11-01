@@ -1,0 +1,7 @@
+CHANGELOG
+==========
+01-11-2012 - sven
+
+    * start with changelog
+    * add docs dir
+    * add socket-timeout to buildout
