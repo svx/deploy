@@ -4,3 +4,4 @@ CHANGELOG
 
     * start with changelog
     * add docs dir
+    * add socket-timeout to buildout
