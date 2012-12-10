@@ -7,4 +7,8 @@ from fabric.contrib import *
 from setup import *
 from testing import *
 
-#we use all configs as imports 
+env.roledefs = {
+    'server': ['${ips:server}'],
+    'black': ['${ips:master}']
+}
+
