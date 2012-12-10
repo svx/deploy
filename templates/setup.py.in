@@ -5,13 +5,6 @@ from fabric.colors import *
 from fabric.contrib.files import *
 from fabric.contrib import *
 
-#env.hosts = ['${ips:server}']
-env.roledefs = {
-    'server': ['${ips:server}'],
-    'black': ['${ips:master}']
-}
-
-
 def infra():
     create_user()
     push_key()
